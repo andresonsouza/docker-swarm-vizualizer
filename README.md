@@ -1,5 +1,12 @@
 # Docker swarm
 
+## Pré-Requisitos:
+Docker, docker-compose e swarm configurados
+
+## Executar a suite de aplicações
+```bash
+docker stack deploy --compose-file docker-compose.yml vote
+```
 ## Vizualizer
 ![](https://i.imgur.com/T48stLg.png)
 
